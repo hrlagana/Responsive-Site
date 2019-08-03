@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://kit.fontawesome.com/47e3927799.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/simplelightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mountains - A place to go</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Mountain</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>A place to go.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            corporis, dolorum totam nisi similique itaque expedita a quisquam
+            voluptates quo incidunt ipsam recusandae! Dicta, porro dolorem eaque
+            dolore labore laborum.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <img src="img/showcase.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Overlay Text-->
+    <section class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner">
+          <h3>Go hiking!</h3>
+          <h2>Hiking Is Healthy</h2>
+          <p>
+            Is it ever! While there is a growing amount of hiking-specific
+            research, studies of the benefits of walking are equally applicable
+            to hiking. According to the American Hiking Society, hiking delivers
+            a remarkable range of health benefits with comparatively few risks.
+            By using hiking as a way to stay physically active, you can
+            potentially lose weight, reduce heart disease, decrease
+            hypertension, and slow the aging process. It also offers mental
+            health benefits by reducing stress and anxiety.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="section-c">
+      <div class="gallery">
+        <a href="img/mountain1.jpg" class="big">
+          <img src="img/mountain1.jpg" alt="" />
+        </a>
+        <a href="img/mountain2.jpg" class="big">
+          <img src="img/mountain2.jpg" alt="" />
+        </a>
+        <a href="img/mountain3.jpg" class="big">
+          <img src="img/mountain3.jpg" alt="" />
+        </a>
+        <a href="img/mountain4.jpg" class="big">
+          <img src="img/mountain4.jpg" alt="" />
+        </a>
+        <a href="img/mountain5.jpg" class="big">
+          <img src="img/mountain5.jpg" alt="" />
+        </a>
+        <a href="img/mountain6.jpg" class="big">
+          <img src="img/mountain6.jpg" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->>
+
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"
+                />
+              </span>
+              <button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
